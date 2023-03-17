@@ -1,4 +1,40 @@
 <!--index.wxml-->
+<view class="header">
+  <!--搜索栏-->
+  <view class = 'header-search'></view>
+  <!--轮播图-->
+  <view class = "header-swiper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="width: 100%;">
+      <block wx:for="{{imgUrls}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}" class="silde-image">
+          </image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!--导航栏-->
+  <view class = "header-navigate">
+    <block wx:for="{{navs}}" wx:key="index">
+      <view class = "item" bindtap="navBtn" id = "{{index}}">
+        <view>
+          <image src = "{{item.img}}" style = "width:85rpx; height:85rpx;"></image>
+        </view>
+        <view>{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+  <view class = "split-line"></view>
+</view>
+
 <view class="container">
-  Hello world!
+
+  <view class="cont-title">
+    <view>
+      <text>★ 优质文章 ★</text>
+    </view>
+  </view>
+  <view class="cont-doc">内容</view>
+  
 </view>

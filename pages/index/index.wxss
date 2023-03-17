@@ -1,1 +1,68 @@
 /**index.wxss**/
+.header{
+  background: -webkit-linear-gradient(top,#D73E3E,#f6f7f9,#ededed);
+}
+.header-search{
+  height: 70rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  border-radius: 10rpx;
+  background-color: #f7f7f7;
+}
+.header-swiper{
+  margin-top: 25rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  border-radius: 10px;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+}
+.silde-image{
+  width:100%;
+  height:300rpx;
+  border-radius: 10px
+}
+.header-navigate{
+  margin-top: 25rpx;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  border-radius: 10px;  
+  box-shadow: 0 0 20rpx #ededed;
+}
+.item{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  /* font-family: "Microsoft Yahei"; */
+  font-size: 10px;
+  width: 60px;
+  display: inline-block;
+  margin-right: 25rpx;
+  margin-left: 25rpx;
+}
+.split-line{
+  height: 25rpx;
+  width: 100%;
+  background-color: #ededed;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 100rpx 0; */
+  box-sizing: border-box;
+} 
+.cont-title{
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+  height: 50rpx;
+}
+.cont-doc{
+  height: 600rpx;
+  width: 100%;
+  align-items: center;
+  background-color: #9ca5b9;
+}
