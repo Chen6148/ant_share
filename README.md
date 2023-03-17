@@ -1,5 +1,6 @@
 # ant_share
-https://github.com/Chen6148/ant_share_project/blob/master/%E9%A1%B5%E9%9D%A2%E6%95%88%E6%9E%9C.png
+页面效果预览图：  
+![image](https://github.com/Chen6148/ant_share_project/blob/master/%E9%A1%B5%E9%9D%A2%E6%95%88%E6%9E%9C.png  )
 Wechat Mini Program  
     .
     ├── app.js     # 小程序的逻辑文件  
